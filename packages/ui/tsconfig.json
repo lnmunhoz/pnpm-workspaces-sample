@@ -3,6 +3,9 @@
   "include": ["src"],
   "compilerOptions": {
     "baseUrl": "./src",
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "jsx": "preserve",
+    "module": "esnext",
+    "moduleResolution": "bundler"
   }
 }
