@@ -6,6 +6,6 @@
     "start": "ts-node src/index.ts"
   },
   "dependencies": {
-    "@project/common": "*"
+    "@project/common": "workspace:*"
   }
 }
